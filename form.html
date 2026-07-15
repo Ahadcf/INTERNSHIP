@@ -10,23 +10,55 @@
 <p>Have a project in mind? Let's talk!</p>
 
 <form>
+  <!-- Text Input -->
   <label>Your Name</label>
   <input type="text" placeholder="Enter your name" />
 
+  <!-- Email Input -->
   <label>Your Email</label>
   <input type="email" placeholder="Enter your email" />
 
+  <!-- Password Input -->
+  <label>Create a Password (to track your project status)</label>
+  <input type="password" placeholder="Enter a secure password" />
+
+  <!-- Select Input -->
   <label>Subject</label>
   <select>
     <option>-- Select a topic --</option>
-    <option>i want to Collaborate</option>
-    <option>i want to Hire you</option>
-    <option>other</option>
+    <option>I want to Collaborate</option>
+    <option>I want to Hire you</option>
+    <option>Other</option>
   </select>
 
+  <!-- Radio Inputs (Choose one) -->
+  <label>Project Budget</label>
+  <input type="radio" name="budget" id="budget1" />
+  <label for="budget1">Under $1,000</label>
+  
+  <input type="radio" name="budget" id="budget2" />
+  <label for="budget2">$1,000 - $5,000</label>
+  
+  <input type="radio" name="budget" id="budget3" />
+  <label for="budget3">$5,000+</label>
+
+  <!-- Date Input -->
+  <label>Expected Launch Date</label>
+  <input type="date" />
+
+  <!-- File Input -->
+  <label>Upload Project Brief / Wireframes</label>
+  <input type="file" />
+
+  <!-- Textarea Input -->
   <label>Message</label>
   <textarea placeholder="Tell me about your project..."></textarea>
 
+  <!-- Checkbox Input -->
+  <input type="checkbox" id="subscribe" />
+  <label for="subscribe">Subscribe to my monthly developer newsletter</label>
+
+  <!-- Submit Button -->
   <button type="submit">Send Message 🚀</button>
 </form>
     
