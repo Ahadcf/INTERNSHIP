@@ -3,237 +3,155 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio | Ahad</title>
+    <title>My portfolio Ahad Sajid</title>
 
     <!-- Standard SEO Meta Tags -->
-    <meta name="description" content="Portfolio of Ahad Sajid, a passionate web developer based in Mumbai specializing in HTML5, CSS3, JavaScript, and React." />
-    <meta name="keywords" content="Ahad Sajid, web developer, portfolio, frontend developer, Mumbai, React, JavaScript, HTML5, CSS3" />
+    <meta name="description" content="Portfolio of Ahad Sajid, a passionate student and web developer specializing in front-end development, HTML5, CSS3, JavaScript, and React." />
+    <meta name="keywords" content="Ahad Sajid, web developer, portfolio, frontend developer, React, JavaScript, HTML, CSS" />
     <meta name="author" content="Ahad Sajid" />
 
     <!-- Open Graph (Facebook / WhatsApp / LinkedIn) Meta Tags -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="My Portfolio | Ahad Sajid" />
-    <meta property="og:description" content="Portfolio of Ahad Sajid, a passionate web developer based in Mumbai specializing in HTML5, CSS3, JavaScript, and React." />
-    <meta property="og:image" content="pfp.jpeg" />
-    <meta property="og:url" content="https://github.com/Ahadcf" />
+    <meta property="og:title" content="My portfolio Ahad Sajid" />
+    <meta property="og:description" content="Portfolio of Ahad Sajid, a passionate student and web developer specializing in front-end development, HTML5, CSS3, JavaScript, and React." />
+    <meta property="og:image" content="ahad.jpeg" />
+    <meta property="og:url" content="#" />
 
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="My Portfolio | Ahad Sajid" />
-    <meta name="twitter:description" content="Portfolio of Ahad Sajid, a passionate web developer based in Mumbai specializing in HTML5, CSS3, JavaScript, and React." />
-    <meta name="twitter:image" content="pfp.jpeg" />
+    <meta name="twitter:title" content="My portfolio Ahad Sajid" />
+    <meta name="twitter:description" content="Portfolio of Ahad Sajid, a passionate student and web developer specializing in front-end development, HTML5, CSS3, JavaScript, and React." />
+    <meta name="twitter:image" content="ahad.jpeg" />
   </head>
-
   <body>
-    <nav>
-      <a href="#About">About</a>
-      <a href="#Skills">Skills</a>
-      <a href="#Project">Project</a>
-      <a href="#Contact">Contact</a>
-    </nav>
-
     <header>
-      <h1>Hi, I'm Ahad sajid👋</h1>
-      <p><u>I'm a passionate web developer from Mumbai.</u></p>
-      <a href="#Contact">Hire Me</a>
+      <nav>
+        <div class="logo">AHAD</div>
+        <ul class="nav-link">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul> 
+        <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">🌙</button> 
+        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">≡</button>
+      </nav>
     </header>
 
-    <header>
-      <h2>My Learning Journey 🚀</h2>
-      <ol>
-        <li>
-          <strong>Foundations of the Web (HTML5 & CSS3):</strong>
-          Started by learning how to structure web pages cleanly and style them
-          to be fully responsive across mobile and desktop screens.
-        </li>
-        <li>
-          <strong>Bringing Pages to Life (JavaScript):</strong>
-          Moved on to vanilla JavaScript to master DOM manipulation, handle user
-          events, perform API fetches, and build interactive features.
-        </li>
-        <li>
-          <strong>Modern Frontend Development (React):</strong>
-          Advanced to React to learn component-based architecture, state
-          management, and building high-performance single-page applications
-          (SPAs).
-        </li>
-      </ol>
+    <main>
+      <section id="hero" class="hero-section">
+        <h1>Hi, I'm Ahad Sajid 👋</h1>
+        <p>I'm a passionate student and web developer.</p>
+        <div class="hero-button">
+          <a href="#projects">View My Work</a><br>
+          <a href="#contact">Contact Me</a>
+        </div>
+      </section>
 
-      <table>
-        <thead>
-          <tr>
-            <th>Technology</th>
-            <th>Proficiency</th>
-            <th>Years of Experience</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HTML5 & CSS3</td>
-            <td>Advanced</td>
-            <td>2 Years</td>
-          </tr>
-          <tr>
-            <td>JavaScript (ES6+)</td>
-            <td>Intermediate</td>
-            <td>2 Years</td>
-          </tr>
-          <tr>
-            <td>React.js</td>
-            <td>Intermediate</td>
-            <td>1 Year</td>
-          </tr>
-          <tr>
-            <td>Git & GitHub</td>
-            <td>Advanced</td>
-            <td>2 Years</td>
-          </tr>
-          <tr>
-            <td>Tailwind CSS</td>
-            <td>Intermediate</td>
-            <td>1 Year</td>
-          </tr>
-        </tbody>
-      </table>
-    </header>
+      <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <figure class="profile-figure">
+          <img src="ahad.jpeg" alt="Ahad profile photo" width="300">
+          <figcaption>Ahad Sajid - Web Developer</figcaption>
+        </figure>
+        <p>I'm a passionate web developer focused on building clean, functional user interfaces.</p>
+      </section>
 
-    <section id="About">
-      <h2>About Me🙋🏻</h2>
-      
-      <figure>
-        <img src="pfp.jpeg" alt="Ahead Sajid, frontend web developer based in Mumbai" />
-        <figcaption>Ahad Sajid - Web Developer from Mumbai</figcaption>
-      </figure>
+      <section id="skills" class="skill-section">
+        <h2>My Skills</h2>
+        <div class="skill-grid">
+          <div class="skill-item" data-level="90">HTML</div>
+          <div class="skill-item" data-level="80">CSS</div>
+          <div class="skill-item" data-level="75">Javascript</div>
+          <div class="skill-item" data-level="60">React</div>  
+        </div>
 
+        <!-- Skills Table -->
+        <table>
+          <thead>
+            <tr>
+              <th>Technology</th>
+              <th>Proficiency</th>
+              <th>Years of Experience</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML5 & CSS3</td>
+              <td>Advanced</td>
+              <td>2 Years</td>
+            </tr>
+            <tr>
+              <td>JavaScript (ES6+)</td>
+              <td>Intermediate</td>
+              <td>2 Years</td>
+            </tr>
+            <tr>
+              <td>React.js</td>
+              <td>Intermediate</td>
+              <td>1 Year</td>
+            </tr>
+            <tr>
+              <td>Git & GitHub</td>
+              <td>Advanced</td>
+              <td>2 Years</td>
+            </tr>
+            <tr>
+              <td>Tailwind CSS</td>
+              <td>Intermediate</td>
+              <td>1 Year</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card" data-category="web">
+            <img src="project1.png" alt="weather App screenshot" width="500px">
+            <h3>Weather App</h3>
+            <p>Real-time weather dashboard using OpenWeather API</p>
+            <div class="project_tags">
+              <span>React</span>
+              <span>API</span>
+            </div>
+            <a href="#">Live Demo</a>
+            <a href="#">GitHub</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Restored Contact Section -->
+      <section id="contact" class="contact-section">
+        <h2>Get In Touch</h2>
+        <form action="#" method="post" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">message</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Updated Footer with Your Information -->
+    <footer class="site-footer">
       <p>
-        I love building things on the web, currently learning
-        <i>HTML5, CSS3, JavaScript, React</i>
+        &copy; Ahad Sajid. built with HTML & CSS ❤️
       </p>
-    </section>
-
-    <section id="Skills">
-      <h2>My Skills🎓</h2>
-      <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-        <li>React</li>
-      </ul>
-    </section>
-
-    <section id="Project">
-      <h2>My Projects💼</h2>
-      
-      <h3>Project 1: DevSpace - Developer Portfolio Platform</h3>
-      <p>
-        Description: A clean, responsive React-based portfolio template built
-        for developers to showcase their work, experience, and projects. It
-        features smooth scrolling animations, an interactive skill section, a
-        working dynamic contact form, and a toggleable dark/light mode using
-        local storage.
-      </p>
-      <p>Tech Stack: React, CSS Modules, JavaScript (ES6)</p>
-      <a href="#Project">VIEW</a>
-
-      <h3>Project 2: WeatherDash - Real-Time Weather App</h3>
-      <p>
-        Description: A dynamic weather dashboard that fetches real-time
-        meteorological data using a third-party API. Users can search for any
-        city globally to view current conditions, a 5-day forecast, and
-        wind/humidity levels. It includes custom, dynamic vector illustrations
-        that change based on the weather condition.
-      </p>
-      <p>Tech Stack: HTML5, CSS3, Vanilla JavaScript, Fetch API</p>
-      <a href="#Project">VIEW</a>
-
-      <h3>Project 3: TaskFlow - Minimalist Kanban Board</h3>
-      <p>
-        Description: A lightweight productivity web application designed to help
-        users manage daily tasks. Built using React, it features full
-        drag-and-drop support to move tasks between "To Do", "In Progress", and
-        "Completed" columns, along with persistent state storage via the
-        browser's localStorage.
-      </p>
-      <p>
-        Tech Stack: React, CSS Grid/Flexbox, JavaScript, HTML5 Drag and Drop API
-      </p>
-      <a href="#Project">VIEW</a>
-
-      <!-- Updated YouTube Embed & Subheading -->
-      <h3>Featured Video Representation</h3>
-      <p>how to create html portfolio</p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/-u3vE84Wo_U?si=taUDR3TFpxlk7yRG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </section>
-
-    <section id="Contact">
-      <h2>Contact Me🌐</h2>
-      <p>Have a project in mind? Let's talk!</p>
-
-      <form>
-        <!-- Text Input -->
-        <label for="name">Your Name</label>
-        <input type="text" id="name" placeholder="Enter your name" required />
-
-        <!-- Email Input -->
-        <label for="email">Your Email</label>
-        <input type="email" id="email" placeholder="Enter your email" required />
-
-        <!-- Password Input -->
-        <label for="password">Create a Password (to track your project status)</label>
-        <input type="password" id="password" placeholder="Enter a secure password" />
-
-        <!-- Select Input -->
-        <label for="subject">Subject</label>
-        <select id="subject">
-          <option>-- Select a topic --</option>
-          <option>I want to Collaborate</option>
-          <option>I want to Hire you</option>
-          <option>Other</option>
-        </select>
-
-        <!-- Radio Inputs (Choose one) -->
-        <label>Project Budget</label>
-        <input type="radio" name="budget" id="budget1" />
-        <label for="budget1">Under $1,000</label>
-
-        <input type="radio" name="budget" id="budget2" />
-        <label for="budget2">$1,000 - $5,000</label>
-
-        <input type="radio" name="budget" id="budget3" />
-        <label for="budget3">$5,000+</label>
-
-        <!-- Date Input -->
-        <label for="launch-date">Expected Launch Date</label>
-        <input type="date" id="launch-date" />
-
-        <!-- File Input -->
-        <label for="file-upload">Upload Project Brief / Wireframes</label>
-        <input type="file" id="file-upload" />
-
-        <!-- Textarea Input -->
-        <label for="message">Message</label>
-        <textarea id="message" placeholder="Tell me about your project..."></textarea>
-
-        <!-- Checkbox Input -->
-        <input type="checkbox" id="subscribe" />
-        <label for="subscribe">Subscribe to my monthly developer newsletter</label>
-
-        <!-- Submit Button -->
-        <button type="submit">Send Message 🚀</button>
-      </form>
-
-      <br />
-      <p>Phone: <a href="tel:+918087970441">8087970441</a></p>
-      <p>
-        Email:
-        <a href="mailto:ahadsajid2007@gmail.com">ahadsajid2007@gmail.com</a>
-      </p>
-      <p>Github: <a href="https://github.com/Ahadcf">Ahadcf</a></p>
-      <p>
-        Linkedin:
-        <a href="https://www.linkedin.com/in/ahad-sajid-14783436b?utm_source=share_via&utm_content=profile&utm_medium=member_ios">Ahad Sajid</a>
-      </p>
-      <p><b>© 2026 Ahad. All rights reserved.</b></p>
-    </section>
+      <nav aria-label="socialmedia lins">
+        <a href="" target="_blank">GitHub</a>
+        <a href="" target="_blank">LinkedIn</a>
+      </nav>
+    </footer>
   </body>
 </html>
