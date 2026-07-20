@@ -22,6 +22,8 @@
     <meta name="twitter:title" content="My portfolio Ahad Sajid" />
     <meta name="twitter:description" content="Portfolio of Ahad Sajid, a passionate student and web developer specializing in front-end development, HTML5, CSS3, JavaScript, and React." />
     <meta name="twitter:image" content="ahad.jpeg" />
+    
+    <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -109,9 +111,9 @@
       <section id="projects" class="projects-section">
         <h2>My Projects</h2>
         <div class="projects-grid">
-          <!-- Added multiple data-* attributes to the project card below -->
+          <!-- Project Card 1 (Weather App) -->
           <article class="project-card" data-category="web" data-year="2026" data-tech="react">
-            <img src="project1.png" alt="weather App screenshot" width="500px">
+            <img src="project1.png" alt="weather App screenshot">
             <h3>Weather App</h3>
             <p>Real-time weather dashboard using OpenWeather API</p>
             <div class="project_tags">
@@ -121,10 +123,35 @@
             <a href="#">Live Demo</a>
             <a href="https://github.com/Ahadcf">GitHub</a>
           </article>
+
+          <!-- Project Card 2 (Task Manager) -->
+          <article class="project-card" data-category="web" data-year="2026" data-tech="javascript">
+            <img src="project2.png" alt="Task manager app screenshot">
+            <h3>TaskFlow Board</h3>
+            <p>A Kanban-style productivity board featuring interactive drag-and-drop item movement and persistent browser localStorage.</p>
+            <div class="project_tags">
+              <span>JavaScript</span>
+              <span>CSS Grid</span>
+            </div>
+            <a href="#">Live Demo</a>
+            <a href="https://github.com/Ahadcf">GitHub</a>
+          </article>
+
+          <!-- Project Card 3 (Fitness Tracker) -->
+          <article class="project-card" data-category="web" data-year="2026" data-tech="react">
+            <img src="project3.png" alt="Fitness tracker application interface screenshot">
+            <h3>FlexMetrics Tracker</h3>
+            <p>A client-side activity dashboard designed to let users visually log daily exercise splits, map workout volumes, and track progress metrics.</p>
+            <div class="project_tags">
+              <span>React</span>
+              <span>Chart.js</span>
+            </div>
+            <a href="#">Live Demo</a>
+            <a href="https://github.com/Ahadcf">GitHub</a>
+          </article>
         </div>
       </section>
 
-      <!-- Restored Contact Section -->
       <section id="contact" class="contact-section">
         <h2>Get In Touch</h2>
         <form action="#" method="post" novalidate>
@@ -145,7 +172,6 @@
       </section>
     </main>
 
-    <!-- Updated Footer with Your Information -->
     <footer class="site-footer">
       <p>
         &copy; Ahad Sajid. Built with HTML & CSS <em>❤️</em>
