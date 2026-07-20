@@ -18,15 +18,19 @@ body{
     line-height:1.6;
     background: #FFFFFF;
 }
+
+header{
+    position:sticky;
+    top:0;
+    z-index: 10000;
+}
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 5%;
     background:var(--primary);
-    /* position:sticky;
-    top:0;
-    z-index: 1000; */
+   
 }
 .logo{
     font-size: 28px;
@@ -51,7 +55,7 @@ body{
 }
 .hero-section{
     background:linear-gradient(135deg, var(--primary),#2E86AB);
-    color: #F4F6F8;
+    color: #f4f8f4;
     text-align: center;
 }
  
