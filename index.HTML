@@ -5,25 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My portfolio Ahad Sajid</title>
 
-    <!-- Standard SEO Meta Tags -->
     <meta name="description" content="Portfolio of Ahad Sajid, a passionate student and web developer specializing in front-end development, HTML5, CSS3, JavaScript, and React." />
     <meta name="keywords" content="Ahad Sajid, web developer, portfolio, frontend developer, React, JavaScript, HTML, CSS" />
     <meta name="author" content="Ahad Sajid" />
 
-    <!-- Open Graph (Facebook / WhatsApp / LinkedIn) Meta Tags -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="My portfolio Ahad Sajid" />
     <meta property="og:description" content="Portfolio of Ahad Sajid, a passionate student and web developer specializing in front-end development, HTML5, CSS3, JavaScript, and React." />
     <meta property="og:image" content="ahad.jpeg" />
     <meta property="og:url" content="#" />
 
-    <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="My portfolio Ahad Sajid" />
     <meta name="twitter:description" content="Portfolio of Ahad Sajid, a passionate student and web developer specializing in front-end development, HTML5, CSS3, JavaScript, and React." />
     <meta name="twitter:image" content="ahad.jpeg" />
     
-    <!-- Link to external stylesheet -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -44,10 +40,10 @@
     <main>
       <section id="hero" class="hero-section">
         <h1>Hi, I'm Ahad Sajid 👋</h1>
-        <p>I'm a passionate student and web developer.</p>
+        <p class="tagline">I'm a passionate student and web developer.</p>
         <div class="hero-button">
-          <a href="#projects">View My Work</a><br>
-          <a href="#contact">Contact Me</a>
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-primary">Contact Me</a>
         </div>
       </section>
 
@@ -69,7 +65,6 @@
           <div class="skill-item" data-level="60">React</div>  
         </div>
 
-        <!-- Skills Table -->
         <table>
           <thead>
             <tr>
@@ -111,7 +106,6 @@
       <section id="projects" class="projects-section">
         <h2>My Projects</h2>
         <div class="projects-grid">
-          <!-- Project Card 1 (Weather App) -->
           <article class="project-card" data-category="web" data-year="2026" data-tech="react">
             <img src="project1.png" alt="weather App screenshot">
             <h3>Weather App</h3>
@@ -124,7 +118,6 @@
             <a href="https://github.com/Ahadcf">GitHub</a>
           </article>
 
-          <!-- Project Card 2 (Task Manager) -->
           <article class="project-card" data-category="web" data-year="2026" data-tech="javascript">
             <img src="project2.png" alt="Task manager app screenshot">
             <h3>TaskFlow Board</h3>
@@ -137,7 +130,6 @@
             <a href="https://github.com/Ahadcf">GitHub</a>
           </article>
 
-          <!-- Project Card 3 (Fitness Tracker) -->
           <article class="project-card" data-category="web" data-year="2026" data-tech="react">
             <img src="project3.png" alt="Fitness tracker application interface screenshot">
             <h3>FlexMetrics Tracker</h3>
