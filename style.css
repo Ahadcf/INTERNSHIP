@@ -333,21 +333,22 @@ body[data-theme="dark"] label {
  
 body[data-theme="dark"] .btn-primary {
     background: #F18F01;
-    color: #ffffff;
+    color: white;
 }
 body[data-theme="dark"] .btn-primary:hover{
-    background: #ffffff;
-    color: #121212;
+    background: black;
+    color:white;
 }
  
 body[data-theme="dark"] .btn-secondary {
     background: #F18F01;
     color: #ffffff;
+    border-color:#F18F01 ;
 }
  
 body[data-theme="dark"] .btn-secondary:hover {
-    background: #ffffff;
-    color: #121212;
+    background:black;
+    color: white;
 }
  
 body[data-theme="dark"] .site-footer {
