@@ -1,24 +1,28 @@
+import React from 'react';
 import './Projects.css';
+import project1Img from '../../assets/project1.png';
+import project2Img from '../../assets/project2.png';
+import project3Img from '../../assets/project3.png';
 
 export default function Projects() {
   const projectList = [
     {
-      title: 'Light-Sensing Robot Capstone',
+      title: 'Gesture Robot Capstone',
       description: 'Hardware documentation and data tracking interface for an autonomous light-guided capstone robot.',
       tags: ['C++', 'Sensors', 'Docs'],
-      img: 'https://picsum.photos/600/400?random=1'
+      img: project1Img
     },
     {
       title: 'Interactive Web Portfolio',
       description: 'A responsive React portfolio application built with custom CSS Glassmorphism and Neon theme engine.',
       tags: ['React', 'CSS Variables', 'Flexbox'],
-      img: 'https://picsum.photos/600/400?random=2'
+      img: project2Img
     },
     {
-      title: 'Game Stock & Stats Tracker',
+      title: 'Fitness Stats Tracker',
       description: 'Real-time item analytics and stock tracker interface for high-tier game items.',
       tags: ['JavaScript', 'REST API', 'CSS Grid'],
-      img: 'https://picsum.photos/600/400?random=3'
+      img: project3Img
     }
   ];
 

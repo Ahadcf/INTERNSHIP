@@ -6,9 +6,10 @@ export default function Footer() {
       <div className="container footer-content">
         <p>&copy; {new Date().getFullYear()} Ahad Sajid. Built with React & CSS.</p>
         <div className="footer-socials">
-          <a href="#github">GitHub</a>
-          <a href="#linkedin">LinkedIn</a>
-          <a href="#twitter">Twitter</a>
+          <a href="https://github.com/Ahadcf">GitHub</a>
+          <a href="https://www.linkedin.com/in/ahad-sajid-14783436b/">LinkedIn</a>
+          <a href="https://www.instagram.com/ahadszn/?hl=en">Instagram</a>
+
         </div>
       </div>
     </footer>

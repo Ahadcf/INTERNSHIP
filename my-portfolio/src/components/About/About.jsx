@@ -1,4 +1,6 @@
+import React from 'react';
 import './About.css';
+import profileImg from '../../assets/ahad.jpeg';
 
 export default function About() {
   return (
@@ -11,7 +13,8 @@ export default function About() {
       <div className="glass about-card">
         <figure className="profile-figure">
           <div className="img-wrapper">
-            <img src= "ahad.jpeg" alt="Ahad Sajid profile" />
+            {/* Used the imported profileImg variable here */}
+            <img src={profileImg} alt="Ahad Sajid profile" />
           </div>
           <figcaption>Ahad Sajid — Web Developer</figcaption>
         </figure>
@@ -38,10 +41,10 @@ export default function About() {
               </div>
             </div>
             <div className="fact-item">
-              <span className="fact-emoji">⚡</span>
+              <span className="fact-emoji">📍</span>
               <div>
-                <strong>Style</strong>
-                <span>Neon Cyber</span>
+                <strong>Location</strong>
+                <span>Mumbai, India</span>
               </div>
             </div>
           </div>
