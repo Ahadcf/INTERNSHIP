@@ -6,8 +6,8 @@ export default function About() {
   return (
     <section id="about" className="container">
       <div className="section-header">
-        <h2>About Me</h2>
-        <p className="section-subtitle">Passionate about craft, code, and design</p>
+        <h2>👨‍💻About Me</h2>
+        <p className="section-subtitle">Get to know the developer behind the code</p>
       </div>
 
       <div className="glass about-card">

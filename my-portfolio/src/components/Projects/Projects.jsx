@@ -7,21 +7,21 @@ import project3Img from '../../assets/project3.png';
 export default function Projects() {
   const projectList = [
     {
-      title: 'Gesture Robot Capstone',
+      title: '🤖 Gesture Robot Capstone',
       description: 'Hardware documentation and data tracking interface for an autonomous light-guided capstone robot.',
-      tags: ['C++', 'Sensors', 'Docs'],
+      tags: ['⚙️ C++', '📡 Sensors', '📄 Docs'],
       img: project1Img
     },
     {
-      title: 'Interactive Web Portfolio',
+      title: '💻 Interactive Web Portfolio',
       description: 'A responsive React portfolio application built with custom CSS Glassmorphism and Neon theme engine.',
-      tags: ['React', 'CSS Variables', 'Flexbox'],
+      tags: ['⚛️ React', '🎨 CSS Variables', '📐 Flexbox'],
       img: project2Img
     },
     {
-      title: 'Fitness Stats Tracker',
+      title: '📊 Fitness Stats Tracker',
       description: 'Real-time item analytics and stock tracker interface for high-tier game items.',
-      tags: ['JavaScript', 'REST API', 'CSS Grid'],
+      tags: ['⚡ JavaScript', '🌐 REST API', '🔳 CSS Grid'],
       img: project3Img
     }
   ];
@@ -29,8 +29,8 @@ export default function Projects() {
   return (
     <section id="projects" className="container">
       <div className="section-header">
-        <h2>Featured Work</h2>
-        <p className="section-subtitle">Recent projects and technical applications</p>
+        <h2>🚀 Featured Work</h2>
+        <p className="section-subtitle">🛠️ Recent projects and technical applications</p>
       </div>
 
       <div className="projects-grid">
@@ -48,8 +48,8 @@ export default function Projects() {
                 ))}
               </div>
               <div className="project-links">
-                <a href="#live" className="btn-link">Live Demo →</a>
-                <a href="#source" className="btn-link secondary">Code</a>
+                <a href="#live" className="btn-link">🔗 Live Demo →</a>
+                <a href="#source" className="btn-link secondary">💻 Code</a>
               </div>
             </div>
           </article>
